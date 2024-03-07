@@ -1,0 +1,1335 @@
+<html>
+<head>
+<title>TestNG:  RegressionSuite</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RegressionSuite</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/3/1</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 07 18:19:10 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>1969 seconds (1969690 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.buildpiper.testcases.BuildPiperTestcasesExecution.StartDriver()'><b>StartDriver</b><br>Test class: com.buildpiper.testcases.BuildPiperTestcasesExecution<br/>
+<a href="#Output-1957995471" onClick='toggleBox("Output-1957995471", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1957995471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1957995471">
+checking if driver exist<br/>
+Open URL:http://122.160.30.218:16680/<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createSchedulePipeline_chrome\createSchedulePipeline_chrome_38_Feb_185158.jpg alt='Lamp' width='500' height='400'><br/>
+Executing; ui_launch<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.140)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-PTF1H2O&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 844da238f5d4cb61056e2d79fd2abdd8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:865)
+	at com.buildpiper.pages.LoginPage.&lt;init&gt;(LoginPage.java:57)
+	at com.buildpiper.testcases.BuildPiperTestcasesExecution.StartDriver(BuildPiperTestcasesExecution.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1957995471", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1957995471'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.140)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-PTF1H2O&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 844da238f5d4cb61056e2d79fd2abdd8
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:865)
+	at com.buildpiper.pages.LoginPage.&lt;init&gt;(LoginPage.java:57)
+	at com.buildpiper.testcases.BuildPiperTestcasesExecution.StartDriver(BuildPiperTestcasesExecution.java:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.buildpiper.testcases.BuildPiperTestcasesExecution@e044b4a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.buildpiper.testcases.BuildPiperTestcasesExecution.StopDriver()'><b>StopDriver</b><br>Test class: com.buildpiper.testcases.BuildPiperTestcasesExecution</td>
+<td></td>
+<td>-1707312119</td>
+<td>com.buildpiper.testcases.BuildPiperTestcasesExecution@e044b4a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.buildpiper.testcases.EnvironmentTestcasesExecution.CreateEnvironmentwithBPConfigMap()'><b>CreateEnvironmentwithBPConfigMap</b><br>Test class: com.buildpiper.testcases.EnvironmentTestcasesExecution<br/>
+<a href="#Output-620006560" onClick='toggleBox("Output-620006560", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-620006560" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-620006560">
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithBPConfigMap_chrome\CreateEnvironmentwithBPConfigMap_chrome_38_Feb_184027.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element userMenuAppBar<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithBPConfigMap_chrome\CreateEnvironmentwithBPConfigMap_chrome_38_Feb_184027.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element switching to user account<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithBPConfigMap_chrome\CreateEnvironmentwithBPConfigMap_chrome_38_Feb_184027.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithBPConfigMap_chrome\CreateEnvironmentwithBPConfigMap_chrome_38_Feb_184032.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //li//button[contains(@class,'main-nav-1')]//span[@title]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithBPConfigMap_chrome\CreateEnvironmentwithBPConfigMap_chrome_38_Feb_184033.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button//span[2][@class='flaticon-expand-arrow']/../..//div//span[@title='Environment Overview']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithBPConfigMap_chrome\CreateEnvironmentwithBPConfigMap_chrome_38_Feb_184038.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on environment overview tab under applicartion name<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithBPConfigMap_chrome\CreateEnvironmentwithBPConfigMap_chrome_38_Feb_184038.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //a[text()='New Environment']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithBPConfigMap_chrome\CreateEnvironmentwithBPConfigMap_chrome_38_Feb_184039.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on add new environment button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithBPConfigMap_chrome\CreateEnvironmentwithBPConfigMap_chrome_38_Feb_184039.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //input[@placeholder='Environment Name']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithBPConfigMap_chrome\CreateEnvironmentwithBPConfigMap_chrome_38_Feb_184040.jpg alt='Lamp' width='500' height='400'><br/>
+Element  Not present on screen<br/>
+Setting value on element <br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithBPConfigMap_chrome\CreateEnvironmentwithBPConfigMap_chrome_38_Feb_184040.jpg alt='Lamp' width='500' height='400'><br/>
+Exception while scroll to view of element: <br/>
+Exception while scroll to view of element: <br/>
+####### End of Test Case: CreateEnvironmentwithBPConfigMap #######<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;Okay&apos;]&quot;}
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-PTF1H2O&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec7b0f003b85038ed12aae6e380678e2
+*** Element info: {Using=xpath, value=//button[text()=&apos;Okay&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at com.buildpiper.capabilities.UICapability.ui_IsElementDisplay(UICapability.java:193)
+	at com.buildpiper.capabilities.UICapability.ui_click(UICapability.java:68)
+	at com.buildpiper.base.Capability.ui_click(Capability.java:69)
+	at com.buildpiper.pages.EnvironmentCreationPage.CreateEnvironmentandBPManagedConfigMap(EnvironmentCreationPage.java:1382)
+	at com.buildpiper.testcases.EnvironmentTestcasesExecution.CreateEnvironmentwithBPConfigMap(EnvironmentTestcasesExecution.java:203)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace620006560", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace620006560'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;Okay&apos;]&quot;}
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-PTF1H2O&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ec7b0f003b85038ed12aae6e380678e2
+*** Element info: {Using=xpath, value=//button[text()=&apos;Okay&apos;]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at com.buildpiper.capabilities.UICapability.ui_IsElementDisplay(UICapability.java:193)
+	at com.buildpiper.capabilities.UICapability.ui_click(UICapability.java:68)
+	at com.buildpiper.base.Capability.ui_click(Capability.java:69)
+	at com.buildpiper.pages.EnvironmentCreationPage.CreateEnvironmentandBPManagedConfigMap(EnvironmentCreationPage.java:1382)
+	at com.buildpiper.testcases.EnvironmentTestcasesExecution.CreateEnvironmentwithBPConfigMap(EnvironmentTestcasesExecution.java:203)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>289</td>
+<td>com.buildpiper.testcases.EnvironmentTestcasesExecution@64a896b0</td></tr>
+<tr>
+<td title='com.buildpiper.testcases.EnvironmentTestcasesExecution.CreateEnvironmentwithSecret()'><b>CreateEnvironmentwithSecret</b><br>Test class: com.buildpiper.testcases.EnvironmentTestcasesExecution<br/>
+<a href="#Output-479954739" onClick='toggleBox("Output-479954739", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-479954739" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-479954739">
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_chrome\CreateEnvironmentwithSecret_chrome_38_Feb_184529.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element userMenuAppBar<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_chrome\CreateEnvironmentwithSecret_chrome_38_Feb_184529.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element switching to user account<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_chrome\CreateEnvironmentwithSecret_chrome_38_Feb_184530.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_chrome\CreateEnvironmentwithSecret_chrome_38_Feb_184535.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //li//button[contains(@class,'main-nav-1')]//span[@title]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_chrome\CreateEnvironmentwithSecret_chrome_38_Feb_184535.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button//span[2][@class='flaticon-expand-arrow']/../..//div//span[@title='Environment Overview']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_chrome\CreateEnvironmentwithSecret_chrome_38_Feb_184540.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on environment overview tab under applicartion name<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_chrome\CreateEnvironmentwithSecret_chrome_38_Feb_184541.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //a[text()='New Environment']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_chrome\CreateEnvironmentwithSecret_chrome_38_Feb_184541.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on add new environment button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_chrome\CreateEnvironmentwithSecret_chrome_38_Feb_184541.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //input[@placeholder='Environment Name']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_chrome\CreateEnvironmentwithSecret_chrome_38_Feb_184542.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element <br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_chrome\CreateEnvironmentwithSecret_chrome_38_Feb_184542.jpg alt='Lamp' width='500' height='400'><br/>
+Exception while scroll to view of element: <br/>
+Exception while scroll to view of element: <br/>
+####### End of Test Case: CreateEnvironmentwithSecret #######<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;Okay&apos;]&quot;}
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-PTF1H2O&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d8ad574a8a9db4a392dd4d0d78945f9
+*** Element info: {Using=xpath, value=//button[text()=&apos;Okay&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at com.buildpiper.capabilities.UICapability.ui_IsElementDisplay(UICapability.java:193)
+	at com.buildpiper.capabilities.UICapability.ui_click(UICapability.java:68)
+	at com.buildpiper.base.Capability.ui_click(Capability.java:69)
+	at com.buildpiper.pages.EnvironmentCreationPage.CreateEnvironmentwithSecret(EnvironmentCreationPage.java:1487)
+	at com.buildpiper.testcases.EnvironmentTestcasesExecution.CreateEnvironmentwithSecret(EnvironmentTestcasesExecution.java:226)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace479954739", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace479954739'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;Okay&apos;]&quot;}
+  (Session info: chrome=121.0.6167.140)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-PTF1H2O&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d8ad574a8a9db4a392dd4d0d78945f9
+*** Element info: {Using=xpath, value=//button[text()=&apos;Okay&apos;]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at com.buildpiper.capabilities.UICapability.ui_IsElementDisplay(UICapability.java:193)
+	at com.buildpiper.capabilities.UICapability.ui_click(UICapability.java:68)
+	at com.buildpiper.base.Capability.ui_click(Capability.java:69)
+	at com.buildpiper.pages.EnvironmentCreationPage.CreateEnvironmentwithSecret(EnvironmentCreationPage.java:1487)
+	at com.buildpiper.testcases.EnvironmentTestcasesExecution.CreateEnvironmentwithSecret(EnvironmentTestcasesExecution.java:226)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>288</td>
+<td>com.buildpiper.testcases.EnvironmentTestcasesExecution@64a896b0</td></tr>
+<tr>
+<td title='com.buildpiper.testcases.EnvironmentTestcasesExecution.CreateEnvironmentwithSecret_KeyValuePair()'><b>CreateEnvironmentwithSecret_KeyValuePair</b><br>Test class: com.buildpiper.testcases.EnvironmentTestcasesExecution<br/>
+<a href="#Output-1095089055" onClick='toggleBox("Output-1095089055", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1095089055" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1095089055">
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_KeyValuePair_chrome\CreateEnvironmentwithSecret_KeyValuePair_chrome_38_Feb_185031.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element userMenuAppBar<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_KeyValuePair_chrome\CreateEnvironmentwithSecret_KeyValuePair_chrome_38_Feb_185049.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element switching to user account<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_KeyValuePair_chrome\CreateEnvironmentwithSecret_KeyValuePair_chrome_38_Feb_185049.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_KeyValuePair_chrome\CreateEnvironmentwithSecret_KeyValuePair_chrome_38_Feb_185055.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //li//button[contains(@class,'main-nav-1')]//span[@title]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_KeyValuePair_chrome\CreateEnvironmentwithSecret_KeyValuePair_chrome_38_Feb_185055.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button//span[2][@class='flaticon-expand-arrow']/../..//div//span[@title='Environment Overview']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_KeyValuePair_chrome\CreateEnvironmentwithSecret_KeyValuePair_chrome_38_Feb_185100.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on environment overview tab under applicartion name<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_KeyValuePair_chrome\CreateEnvironmentwithSecret_KeyValuePair_chrome_38_Feb_185100.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //a[text()='New Environment']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_KeyValuePair_chrome\CreateEnvironmentwithSecret_KeyValuePair_chrome_38_Feb_185101.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on add new environment button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_KeyValuePair_chrome\CreateEnvironmentwithSecret_KeyValuePair_chrome_38_Feb_185101.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //input[@placeholder='Environment Name']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_KeyValuePair_chrome\CreateEnvironmentwithSecret_KeyValuePair_chrome_38_Feb_185102.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element <br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\CreateEnvironmentwithSecret_KeyValuePair_chrome\CreateEnvironmentwithSecret_KeyValuePair_chrome_38_Feb_185102.jpg alt='Lamp' width='500' height='400'><br/>
+Exception while scroll to view of element: <br/>
+Exception while waiting for page load<br/>
+Exception while scroll to view of element: <br/>
+####### End of Test Case: CreateEnvironmentwithSecret_KeyValuePair #######<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.140)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-PTF1H2O&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49616}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 411864444fab8fd7114049cffa1193a5
+*** Element info: {Using=xpath, value=//button[text()=&apos;Okay&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at com.buildpiper.capabilities.UICapability.ui_IsElementDisplay(UICapability.java:193)
+	at com.buildpiper.capabilities.UICapability.ui_click(UICapability.java:68)
+	at com.buildpiper.base.Capability.ui_click(Capability.java:69)
+	at com.buildpiper.pages.EnvironmentCreationPage.CreateEnvironmentwithSecret_KeyValuePair(EnvironmentCreationPage.java:1585)
+	at com.buildpiper.testcases.EnvironmentTestcasesExecution.CreateEnvironmentwithSecret_KeyValuePair(EnvironmentTestcasesExecution.java:243)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1095089055", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1095089055'><pre>org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=121.0.6167.140)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-PTF1H2O&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49616}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 411864444fab8fd7114049cffa1193a5
+*** Element info: {Using=xpath, value=//button[text()=&apos;Okay&apos;]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.isDisplayed(Unknown Source)
+	at com.buildpiper.capabilities.UICapability.ui_IsElementDisplay(UICapability.java:193)
+	at com.buildpiper.capabilities.UICapability.ui_click(UICapability.java:68)
+	at com.buildpiper.base.Capability.ui_click(Capability.java:69)
+	at com.buildpiper.pages.EnvironmentCreationPage.CreateEnvironmentwithSecret_KeyValuePair(EnvironmentCreationPage.java:1585)
+	at com.buildpiper.testcases.EnvironmentTestcasesExecution.CreateEnvironmentwithSecret_KeyValuePair(EnvironmentTestcasesExecution.java:243)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>85</td>
+<td>com.buildpiper.testcases.EnvironmentTestcasesExecution@64a896b0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.buildpiper.testcases.ServiceCreationTestcases.createHPAService()'><b>createHPAService</b><br>Test class: com.buildpiper.testcases.ServiceCreationTestcases<br/>
+<a href="#Output-231995562" onClick='toggleBox("Output-231995562", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-231995562" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-231995562">
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181925.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181925.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181925.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181925.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element userMenuAppBar<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181926.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element switching to user account<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181926.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //li//button[contains(@class,'main-nav-1')]//span[1][@title]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181935.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button//span[2][@class='flaticon-expand-arrow']/../..//div//span[@title='Service Overview']/span]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181939.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //a[@class='btn btn-submit']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181939.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA addServiceBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181940.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //h1[@class='main-heading']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181940.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //p[(@class='hint-text-main-heading')]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181940.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element sets service name<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181941.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element sets external name<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181944.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA selectEveryRadioBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181944.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA SubmitCreatePage<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181945.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //h1[@class='h1' and contains(.,'Create a Environment')]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181947.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='staticwrap-inner']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181948.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //select[@name='env_id']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_181954.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button[@class='btn btn-submit']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182030.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA SubmitEnvPage<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182030.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='font-27 font-family-nunito font-weight-300 lh-12 mr-5']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182036.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //span[contains(text(),'Project:')]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182036.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Env Build Details']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182037.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA validateBuildDetails<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182037.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //p[@class='main-text mb-10']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182038.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //span[@class='sub-text mb-10']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182038.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Env Deploy Details']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182038.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA validateDeployDetails<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182038.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //p[@class='main-text mb-10']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182038.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //span[@class='sub-text mb-10']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182039.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='To have a very smooth configuration we strongly recommend BuildPiper UI.']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182039.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='you can also configure the CD by uploading your custom manifest file.']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182039.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Env Build Details']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182039.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA validateBuildDetails<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182040.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Configure Build']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182040.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA clickConfigBuild<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182040.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='md-step-circle current']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182043.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //h4[@class='mainHeading']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182044.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Please Select the Git URL']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182044.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182044.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA gitUrlInputField<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182044.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element ClicksclearField<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182050.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Load Branches']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182059.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA loadBranchesBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182100.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Advance Configurations']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182113.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA clickContinueBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182113.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //h4[@class='mainHeading']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182119.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Build Env Details']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182119.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA envDetailsSwitch<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182119.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA envName<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182120.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA envValue<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182120.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA clickContinueBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182120.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA preHooksSwitch<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182120.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA preHooksPasswordBox1<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182121.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on add New Hook<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182121.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA preHooksPasswordBox2<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182121.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA postHooksSwitch<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182121.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA postHooksPasswordBox1<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182122.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on add New Post Hook<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182122.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA postHooksPasswordBox2<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182122.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA submitHooks<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182122.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: /html/body/div[1]/div/main/div[1]/div/div[1]/div/div/div[2]/div[2]/span[2]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182125.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Job Template: ']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182127.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Env Deploy Details']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182127.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA validateDeployDetails<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182127.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button[@class='btn btn-submit']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182128.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on buildPiperUI button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182128.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Add Access Level<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182129.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA privateAccess<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182202.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks add button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182203.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182205.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182207.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182210.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182212.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182214.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182216.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182219.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182221.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182223.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Clicks on Deploy Details tag<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182226.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Env Deploy Details']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182230.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element validateDeployDetails<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182230.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element otherDeploymentInfo<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182232.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button[text()='Add Default HPA']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182235.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element addDefaultHPA<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182236.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //input[@placeholder='HPA Name']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182236.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element saveHPA<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182242.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element refreshHPA<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182247.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='btn-group btn-icon-group ml-auto d-inline-block']/button[@class='btn btn-flaticon'][1]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182248.jpg alt='Lamp' width='500' height='400'><br/>
+ Element [[ChromeDriver: chrome on WINDOWS (6507899a6486564eb0481b87de59b0dd)] -> xpath: //div[@class='btn-group btn-icon-group ml-auto d-inline-block']/button[@class='btn btn-flaticon'][1]] is not clickable using selenium click<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182249.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element uploadHPA<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182250.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button[text()='Confirm']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182252.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element ConfirmHPA<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182252.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element continuebutton<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHPAService_chrome\createHPAService_chrome_38_Feb_182309.jpg alt='Lamp' width='500' height='400'><br/>
+####### End of Test Case: createHPAService #######<br/>
+</div>
+</td>
+<td></td>
+<td>227</td>
+<td>com.buildpiper.testcases.ServiceCreationTestcases@36a7abe1</td></tr>
+<tr>
+<td title='com.buildpiper.testcases.ServiceCreationTestcases.createHelmService()'><b>createHelmService</b><br>Test class: com.buildpiper.testcases.ServiceCreationTestcases<br/>
+<a href="#Output-128053256" onClick='toggleBox("Output-128053256", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-128053256" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-128053256">
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182907.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182907.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element userMenuAppBar<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182907.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element switching to user account<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182908.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //li//button[contains(@class,'main-nav-1')]//span[1][@title]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182911.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA serviceOverviewLink<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182911.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //a[@class='btn btn-submit']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182912.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA addServiceBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182912.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //h1[@class='main-heading']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182913.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element sets service name<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182913.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element sets external name<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182913.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA selectEveryRadioBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182913.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA SubmitCreatePage<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182914.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //h1[@class='h1' and contains(.,'Create a Environment')]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182916.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //select[@name='env_id']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182923.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button[@class='btn btn-submit']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182953.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA SubmitEnvPage<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_182954.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Configure Build']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183002.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA clickConfigBuild<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183002.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='md-step-circle current']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183005.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183005.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA gitUrlInputField<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183005.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element ClicksclearField<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183011.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Load Branches']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183020.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA loadBranchesBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183021.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //select[@name='branch_name']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183031.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Advance Configurations']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183034.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA clickContinueBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183040.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //h4[@class='mainHeading']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183045.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Build Env Details']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183045.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA envDetailsSwitch<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183046.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA envName<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183046.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA envValue<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183046.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA clickContinueBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183051.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA preHooksSwitch<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183052.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA preHooksPasswordBox1<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183052.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on add New Hook<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183052.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA preHooksPasswordBox2<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183052.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA postHooksSwitch<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183053.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA postHooksPasswordBox1<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183053.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on add New Post Hook<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183053.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA postHooksPasswordBox2<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183053.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA submitHooks<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183054.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Env Deploy Details']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183057.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA validateDeployDetails<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183057.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //a[@class='btn btn-submit' ][contains(@href,'/manifest/add')]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183058.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on custom manifest button under deploy details<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183058.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //input[@class='switch-input' and @name='deploy_variable_raw_input']/..//span[@class='switch-label']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183058.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on switch handle for raw key value pairs<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183058.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button[@class='transparent-btn nowrap' ][text()=' Add Row']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183059.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on add row button for key value pairs<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183059.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on add row button for key value pairs<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183100.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[contains(@class,'MuiFormGroup-row') and @role='radiogroup']//input[@name='option' and @value='MANIFEST_HELM']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183130.jpg alt='Lamp' width='500' height='400'><br/>
+ Element [[ChromeDriver: chrome on WINDOWS (045c43bc50b0130cfb0ba0d5420412f7)] -> xpath: //div[contains(@class,'MuiFormGroup-row') and @role='radiogroup']//input[@name='option' and @value='MANIFEST_HELM']] is not clickable using selenium click<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183202.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on upload type<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183202.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183203.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA gitUrlInputField<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183203.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element ClicksclearField<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183208.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Load Branches']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183218.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA loadBranchesBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183218.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //select[@name='branch_name']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183228.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //input[@name='file_paths' and @placeholder='/xyz/abc.yaml']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183231.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //input[@name='helm_release_name' and @placeholder='Enter Helm Release name']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183232.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[contains(@class,'MuiFormGroup-row') and @role='radiogroup']//span[text()='Via Git Repo']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183232.jpg alt='Lamp' width='500' height='400'><br/>
+ Element [[ChromeDriver: chrome on WINDOWS (045c43bc50b0130cfb0ba0d5420412f7)] -> xpath: //div[contains(@class,'MuiFormGroup-row') and @role='radiogroup']//span[text()='Via Git Repo']] is not clickable using selenium click<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183234.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks value file option<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183234.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='value-files']//div[@class='MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183234.jpg alt='Lamp' width='500' height='400'><br/>
+ Element Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='value-files']//div[@class='MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd']' is not clickable using selenium click<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183305.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element value Field Git Dropdown<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183305.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element ClicksclearField<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183311.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='value-files']//*[text()='Load Branches']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183320.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA loadBranchesBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183321.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='value-files']//select[@name='branch_name']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183331.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='value-files']//input[@name='file_paths' and @placeholder='/xyz/abc.yaml']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183334.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button[@class='btn btn-submit' and text()='Save & Continue']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183335.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element save And Continue Btn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183335.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //li//button[contains(@class,'main-nav-1')]//span[1][@title]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183345.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button//span[2][@class='flaticon-expand-arrow']/../..//div//span[@title='Service Overview']/span]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183345.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //input[@placeholder='Name']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183356.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on environment overview tab under applicartion name<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183356.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183402.jpg alt='Lamp' width='500' height='400'><br/>
+ Element [[ChromeDriver: chrome on WINDOWS (045c43bc50b0130cfb0ba0d5420412f7)] -> xpath: //button[@title='Build']] is not clickable using selenium click<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183403.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element buildButton<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183403.jpg alt='Lamp' width='500' height='400'><br/>
+ Element [[ChromeDriver: chrome on WINDOWS (045c43bc50b0130cfb0ba0d5420412f7)] -> xpath: //button[@title='Build']] is not clickable using selenium click<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183405.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element buildButton<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183406.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183407.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element buildButton<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183407.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183443.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //span[contains(text(),'Please note You are building image in Env.')]/following-sibling::span[1]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183448.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183451.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element triggerBuild<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183451.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183459.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element refresh BuildandDeploy button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183500.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183706.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks buildwindow_closeButton<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183706.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183714.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element refresh BuildandDeploy button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183715.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183720.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: (//div/p[text()='Artifact']/following-sibling::span)[1]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183720.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183720.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183730.jpg alt='Lamp' width='500' height='400'><br/>
+ Element [[ChromeDriver: chrome on WINDOWS (045c43bc50b0130cfb0ba0d5420412f7)] -> xpath: //button[@title='Deploy']] is not clickable using selenium click<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183732.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks deployButton<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183732.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element deploytagInput<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183738.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element cleardeployDropDown<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183738.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks triggerDeploy<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183748.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183802.jpg alt='Lamp' width='500' height='400'><br/>
+ Element [[ChromeDriver: chrome on WINDOWS (045c43bc50b0130cfb0ba0d5420412f7)] -> xpath: //div[contains(@class,'popup-card mb')]//button[@class='btn-round border-navy bg-clear-btn']] is not clickable using selenium click<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183804.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element refresh BuildandDeploy button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183804.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183934.jpg alt='Lamp' width='500' height='400'><br/>
+ Element [[ChromeDriver: chrome on WINDOWS (045c43bc50b0130cfb0ba0d5420412f7)] -> xpath: //div[contains(@class,'popup-card mb')]//button[@class='btn-round border-navy bg-clear-btn']] is not clickable using selenium click<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183935.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element refresh BuildandDeploy button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183935.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_183939.jpg alt='Lamp' width='500' height='400'><br/>
+ Element Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='card']//button[@class='MuiButtonBase-root MuiIconButton-root']' is not clickable using selenium click<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_184010.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks deploywindow_closeButton<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createHelmService_chrome\createHelmService_chrome_38_Feb_184010.jpg alt='Lamp' width='500' height='400'><br/>
+####### End of Test Case: createHelmService #######<br/>
+</div>
+</td>
+<td></td>
+<td>666</td>
+<td>com.buildpiper.testcases.ServiceCreationTestcases@36a7abe1</td></tr>
+<tr>
+<td title='com.buildpiper.testcases.ServiceCreationTestcases.createServ()'><b>createServ</b><br>Test class: com.buildpiper.testcases.ServiceCreationTestcases<br/>
+<a href="#Output-1488129598" onClick='toggleBox("Output-1488129598", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1488129598" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1488129598">
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182326.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element userMenuAppBar<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182326.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element switching to user account<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182326.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182331.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //li//button[contains(@class,'main-nav-1')]//span[1][@title]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182336.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button//span[2][@class='flaticon-expand-arrow']/../..//div//span[@title='Service Overview']/span]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182339.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //a[@class='btn btn-submit']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182340.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA addServiceBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182340.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //h1[@class='main-heading']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182341.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //p[(@class='hint-text-main-heading')]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182341.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element sets service name<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182341.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element sets external name<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182345.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA selectEveryRadioBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182345.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA SubmitCreatePage<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182345.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //h1[@class='h1' and contains(.,'Create a Environment')]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182348.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='staticwrap-inner']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182348.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //select[@name='env_id']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182354.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button[@class='btn btn-submit']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182430.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA SubmitEnvPage<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182430.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='font-27 font-family-nunito font-weight-300 lh-12 mr-5']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182436.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //span[contains(text(),'Project:')]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182436.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Env Build Details']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182437.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA validateBuildDetails<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182437.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //p[@class='main-text mb-10']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182437.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //span[@class='sub-text mb-10']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182438.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Env Deploy Details']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182438.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA validateDeployDetails<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182438.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //p[@class='main-text mb-10']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182438.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //span[@class='sub-text mb-10']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182438.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='To have a very smooth configuration we strongly recommend BuildPiper UI.']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182439.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='you can also configure the CD by uploading your custom manifest file.']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182439.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182439.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Env Build Details']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182439.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA validateBuildDetails<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182440.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Configure Build']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182440.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA clickConfigBuild<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182440.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='md-step-circle current']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182443.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //h4[@class='mainHeading']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182444.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Please Select the Git URL']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182444.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182444.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA gitUrlInputField<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182444.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element ClicksclearField<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182450.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Load Branches']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182459.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA loadBranchesBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182459.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Advance Configurations']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182513.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA clickContinueBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182513.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //h4[@class='mainHeading']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182519.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Build Env Details']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182519.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA envDetailsSwitch<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182519.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA envName<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182519.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA envValue<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182520.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA clickContinueBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182520.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA preHooksSwitch<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182520.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA preHooksPasswordBox1<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182520.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on add New Hook<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182521.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA preHooksPasswordBox2<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182521.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA postHooksSwitch<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182521.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA postHooksPasswordBox1<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182521.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on add New Post Hook<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182522.jpg alt='Lamp' width='500' height='400'><br/>
+Setting value on element Poc_QA postHooksPasswordBox2<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182522.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA submitHooks<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182522.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: /html/body/div[1]/div/main/div[1]/div/div[1]/div/div/div[2]/div[2]/span[2]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182525.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Job Template: ']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182526.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182526.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Env Deploy Details']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182527.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA validateDeployDetails<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182527.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button[@class='btn btn-submit']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182527.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on buildPiperUI button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182527.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Add Access Level<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182529.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA privateAccess<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182602.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks add button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182603.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182605.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182607.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182609.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182612.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182614.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182616.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182618.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182621.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182623.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Clicks on Deploy Details tag<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182627.jpg alt='Lamp' width='500' height='400'><br/>
+checking if driver exist<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182627.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element adds new environment to running service<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182627.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //h1[@class='h1' and contains(.,'Create a Environment')]]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182628.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='staticwrap-inner']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182628.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //select[@name='env_id']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182635.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //select[@name='project_job_template_id']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182638.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button[@class='btn btn-submit']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182708.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA SubmitEnvPage<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182709.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //span[@class='badge badge-dev']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182716.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Configure Build']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182716.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Configure Build']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182719.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA clickConfigBuild<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182719.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //div[@class='input-component']//label]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182722.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element user clicks next button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182726.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Load Branches']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182731.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA loadBranchesBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182731.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA clickContinueBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182740.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA clickContinueBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182746.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA clickContinueBtn<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182749.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //*[text()='Env Deploy Details']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182752.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA validateDeployDetails<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182753.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //button[@class='btn btn-submit']]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182753.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks on buildPiperUI button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182753.jpg alt='Lamp' width='500' height='400'><br/>
+Element is present  xpath: //label//..//..//..//select]<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182756.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element user clicks next button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182757.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Add Access Level<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182758.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element Poc_QA privateAccess<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182831.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks add button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182831.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182834.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182836.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182838.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182840.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182843.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182845.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182847.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182850.jpg alt='Lamp' width='500' height='400'><br/>
+Clicking on element clicks continue button<br/>
+<img src=D:\BuildPiper_Rahul\Reports\07Feb_181908\createServ_chrome\createServ_chrome_38_Feb_182852.jpg alt='Lamp' width='500' height='400'><br/>
+####### End of Test Case: createServ #######<br/>
+</div>
+</td>
+<td></td>
+<td>328</td>
+<td>com.buildpiper.testcases.ServiceCreationTestcases@36a7abe1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.buildpiper.testcases.BuildPiperTestcasesExecution.createSchedulePipeline()'><b>createSchedulePipeline</b><br>Test class: com.buildpiper.testcases.BuildPiperTestcasesExecution</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.140)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-PTF1H2O&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 844da238f5d4cb61056e2d79fd2abdd8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:865)
+	at com.buildpiper.pages.LoginPage.&lt;init&gt;(LoginPage.java:57)
+	at com.buildpiper.testcases.BuildPiperTestcasesExecution.StartDriver(BuildPiperTestcasesExecution.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1254133628", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1254133628'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.140)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-PTF1H2O&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Rahul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 844da238f5d4cb61056e2d79fd2abdd8
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:865)
+	at com.buildpiper.pages.LoginPage.&lt;init&gt;(LoginPage.java:57)
+	at com.buildpiper.testcases.BuildPiperTestcasesExecution.StartDriver(BuildPiperTestcasesExecution.java:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.buildpiper.testcases.BuildPiperTestcasesExecution@e044b4a</td></tr>
+</table><p>
+</body>
+</html>

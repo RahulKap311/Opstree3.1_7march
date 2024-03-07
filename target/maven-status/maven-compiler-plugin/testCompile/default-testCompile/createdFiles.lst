@@ -1,0 +1,9 @@
+com\buildpiper\testcases\JobTemplatetestCases.class
+com\buildpiper\testcases\RepoIntegrationTestCases.class
+com\buildpiper\testcases\EnvironmentTestcasesExecution.class
+com\buildpiper\testcases\BuildPiperTestcasesExecution.class
+com\buildpiper\testcases\SuperAdminTestCases.class
+com\buildpiper\testcases\PreReqTest.class
+com\buildpiper\testcases\ServiceCreationComprehensiveTestCases.class
+com\buildpiper\testcases\MajorRelease3_1.class
+com\buildpiper\testcases\ServiceCreationTestcases.class

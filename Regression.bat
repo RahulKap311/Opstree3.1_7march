@@ -1,0 +1,1 @@
+mvn clean test -Dsurefile.suiteXMlFiles=Regression.xml

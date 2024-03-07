@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testsuite">
+	<listeners>	
+		
+		 <listener class-name="com.buildpiper.report.ExtentReportListener"></listener>
+	</listeners>
+	
+	<test thread-count="1" name="RegressionSuite">
+	 <classes>
+	     <class name="com.buildpiper.testcases.LenskartScan">
+		 <methods>
+         <include name="LoginViaCreds" />
+         <include name="LoginViaGitLab" />
+         <include name="HealthCheck" />
+         <include name="ManualBuildandDeployHelmService" />
+         <include name="JobStatusInsidePipleineforMultipleService" />
+         <include name="PipelineOrderonHistory" />
+         <include name="SearchPipelineButtonExistance" />
+         <include name="ReplayPipeline" />
+        </methods>
+		 </class>	 
+	 
+		 <class name="com.buildpiper.testcases.ServiceCreationTestcases">
+		 <methods>
+         <include name="BuildDeployAlternate" />
+        </methods>
+		 </class>
+			 
+		 <class name="com.buildpiper.testcases.JobExecutionActivityTestcases">
+		 <methods>
+         <include name="PaginationCheck" />
+         <include name="ActivityFilterby_Status" />
+         <include name="ActivityFilterby_Users" />
+        </methods>
+		 </class>
+		 
+		 
+	
+		 
+	 </classes>
+	</test>
+</suite> 

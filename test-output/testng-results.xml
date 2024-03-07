@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="10" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Execution ID : 05Mar_182953]]>
+    </line>
+    <line>
+      <![CDATA[####### Starting  Test Case: CreateandBuildService_withExtraParameter #######]]>
+    </line>
+    <line>
+      <![CDATA[Getting test data for CreateandBuildService_withExtraParameter]]>
+    </line>
+    <line>
+      <![CDATA[No testdata found for Test Case: CreateandBuildService_withExtraParameter]]>
+    </line>
+    <line>
+      <![CDATA[checking if driver exist]]>
+    </line>
+    <line>
+      <![CDATA[Open URL:http://122.160.30.218:16680/]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_182957.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Executing; ui_launch]]>
+    </line>
+    <line>
+      <![CDATA[Element : name: email]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Setting value on element USER_NAME]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183002.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : name: password]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Setting value on element PASSWORD]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183002.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //button[@type='submit']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element LOGIN_BTN]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183003.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Successful navigation is validated for LoginPage]]>
+    </line>
+    <line>
+      <![CDATA[checking if driver exist]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183003.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[checking if driver exist]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183009.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[checking if driver exist]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183009.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[checking if driver exist]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183009.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[checking if driver exist]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183009.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //button[@type='button' and @aria-controls='menu-appbar']//div//div]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element userMenuAppBar]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183010.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //button[contains(@class,'btn-link-green')][text()=' Switch to User Portal']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element switching to user account]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183010.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //li//button[contains(@class,'main-nav-1')]//span[1][@title]]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //li//button[contains(@class,'main-nav-1')]//span[1][@title]]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183020.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //button//span[2][@class='flaticon-expand-arrow']/../..//div//span[@title='Service Overview']/span]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //button//span[2][@class='flaticon-expand-arrow']/../..//div//span[@title='Service Overview']/span]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183024.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //a[@class='btn btn-submit']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //a[@class='btn btn-submit']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183024.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //a[@class='btn btn-submit']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element Poc_QA addServiceBtn]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183025.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //h1[@class='main-heading']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //h1[@class='main-heading']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183025.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //p[(@class='hint-text-main-heading')]]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //p[(@class='hint-text-main-heading')]]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183026.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //input[@placeholder='demo-app']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Setting value on element sets service name]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183026.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //input[@placeholder='Sample-Service']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Setting value on element sets external name]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183029.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //span[contains(.,'Build for every environment')]]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element Poc_QA selectEveryRadioBtn]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183030.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //button[@class='btn btn-submit']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element Poc_QA SubmitCreatePage]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183030.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //h1[@class='h1' and contains(.,'Create a Environment')]]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //h1[@class='h1' and contains(.,'Create a Environment')]]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183032.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //div[@class='staticwrap-inner']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //div[@class='staticwrap-inner']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183032.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //select[@name='env_id']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //select[@name='env_id']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183041.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //button[@class='btn btn-submit']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //button[@class='btn btn-submit']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183116.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //button[@class='btn btn-submit']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element Poc_QA SubmitEnvPage]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183116.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //div[@class='font-27 font-family-nunito font-weight-300 lh-12 mr-5']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //div[@class='font-27 font-family-nunito font-weight-300 lh-12 mr-5']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183123.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //span[contains(text(),'Project:')]]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //span[contains(text(),'Project:')]]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183123.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //*[text()='Env Build Details']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //*[text()='Env Build Details']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183124.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //*[text()='Env Build Details']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element Poc_QA validateBuildDetails]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183124.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //p[@class='main-text mb-10']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //p[@class='main-text mb-10']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183125.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //span[@class='sub-text mb-10']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //span[@class='sub-text mb-10']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183125.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //*[text()='Env Deploy Details']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //*[text()='Env Deploy Details']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183125.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //*[text()='Env Deploy Details']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element Poc_QA validateDeployDetails]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183125.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //p[@class='main-text mb-10']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //p[@class='main-text mb-10']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183126.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //span[@class='sub-text mb-10']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //span[@class='sub-text mb-10']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183126.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //*[text()='To have a very smooth configuration we strongly recommend BuildPiper UI.']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //*[text()='To have a very smooth configuration we strongly recommend BuildPiper UI.']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183126.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //*[text()='you can also configure the CD by uploading your custom manifest file.']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //*[text()='you can also configure the CD by uploading your custom manifest file.']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183126.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //*[text()='Env Build Details']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //*[text()='Env Build Details']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183127.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //*[text()='Env Build Details']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element Poc_QA validateBuildDetails]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183127.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //*[text()='Configure Build']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //*[text()='Configure Build']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183127.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //*[text()='Configure Build']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element Poc_QA clickConfigBuild]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183127.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //div[@class='md-step-circle current']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //div[@class='md-step-circle current']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183131.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //h4[@class='mainHeading']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //h4[@class='mainHeading']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183131.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //*[text()='Please Select the Git URL']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //*[text()='Please Select the Git URL']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183131.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //div[@class='MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //div[@class='MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183131.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //input[@name='git_url']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element Poc_QA gitUrlInputField]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183132.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //button[@title='Clear']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element ClicksclearField]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183137.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //input[@name='git_url']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //*[text()='Load Branches']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //*[text()='Load Branches']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183147.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //*[text()='Load Branches']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on element Poc_QA loadBranchesBtn]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183147.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //input[@name='file_paths']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //input[@name='file_paths_build_context']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //*[text()='Advance Configurations']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Element is present  xpath: //*[text()='Advance Configurations']]]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183201.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Element : xpath: //input[@name='custom_parameters']]is displayed on screen]]>
+    </line>
+    <line>
+      <![CDATA[Setting value on element custom Parameters]]>
+    </line>
+    <line>
+      <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183201.jpg alt='Lamp' width='500' height='400'>]]>
+    </line>
+    <line>
+      <![CDATA[Result upload to testlink is disabled, Please ensure you have 'UpdateTestLink=Yes' in project.properties ]]>
+    </line>
+    <line>
+      <![CDATA[####### End of Test Case: CreateandBuildService_withExtraParameter #######]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-05T18:29:55 IST" name="Default suite" finished-at="2024-03-05T18:32:04 IST" duration-ms="128867">
+    <groups>
+      <group name="Regression">
+        <method signature="ServiceCreationComprehensiveTestCases.CreateandBuildService_withExtraParameter()[pri:2, instance:com.buildpiper.testcases.ServiceCreationComprehensiveTestCases@42561fba]" name="CreateandBuildService_withExtraParameter" class="com.buildpiper.testcases.ServiceCreationComprehensiveTestCases"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-03-05T18:29:55 IST" name="Default test" finished-at="2024-03-05T18:32:04 IST" duration-ms="128867">
+      <class name="com.buildpiper.testcases.ServiceCreationComprehensiveTestCases">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.buildpiper.testcases.ServiceCreationComprehensiveTestCases@42561fba]" started-at="2024-03-05T18:29:55 IST" name="setUp" finished-at="2024-03-05T18:29:55 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5368e981]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="Reportsetup()[pri:0, instance:com.buildpiper.testcases.ServiceCreationComprehensiveTestCases@42561fba]" started-at="2024-03-05T18:29:55 IST" name="Reportsetup" finished-at="2024-03-05T18:29:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportsetup -->
+        <test-method is-config="true" signature="testName(org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.buildpiper.testcases.ServiceCreationComprehensiveTestCases@42561fba]" started-at="2024-03-05T18:29:55 IST" name="testName" finished-at="2024-03-05T18:29:55 IST" duration-ms="439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5368e981]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.buildpiper.testcases.ServiceCreationComprehensiveTestCases.CreateandBuildService_withExtraParameter()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[####### Starting  Test Case: CreateandBuildService_withExtraParameter #######]]>
+            </line>
+            <line>
+              <![CDATA[Getting test data for CreateandBuildService_withExtraParameter]]>
+            </line>
+            <line>
+              <![CDATA[No testdata found for Test Case: CreateandBuildService_withExtraParameter]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testName -->
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:com.buildpiper.testcases.ServiceCreationComprehensiveTestCases@42561fba]" started-at="2024-03-05T18:29:55 IST" name="StartDriver" finished-at="2024-03-05T18:30:09 IST" duration-ms="13736" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[checking if driver exist]]>
+            </line>
+            <line>
+              <![CDATA[Open URL:http://122.160.30.218:16680/]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_182957.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Executing; ui_launch]]>
+            </line>
+            <line>
+              <![CDATA[Element : name: email]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Setting value on element USER_NAME]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183002.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : name: password]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Setting value on element PASSWORD]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183002.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //button[@type='submit']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element LOGIN_BTN]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183003.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Successful navigation is validated for LoginPage]]>
+            </line>
+            <line>
+              <![CDATA[checking if driver exist]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183003.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="CreateandBuildService_withExtraParameter()[pri:2, instance:com.buildpiper.testcases.ServiceCreationComprehensiveTestCases@42561fba]" started-at="2024-03-05T18:30:09 IST" name="CreateandBuildService_withExtraParameter" finished-at="2024-03-05T18:32:03 IST" duration-ms="114317" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [~!`3#$%^&&*( yt 12345+_-:;\"[]{]] but found [~!`3#$%^&&*( yt 12345+_-:;"[]{]]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [~!`3#$%^&&*( yt 12345+_-:;\"[]{]] but found [~!`3#$%^&&*( yt 12345+_-:;"[]{]]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.buildpiper.pages.BuildConfigurationPage.CreateAndValidateBuildConfig_withExtraParameters(BuildConfigurationPage.java:380)
+at com.buildpiper.testcases.ServiceCreationComprehensiveTestCases.CreateandBuildService_withExtraParameter(ServiceCreationComprehensiveTestCases.java:487)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[checking if driver exist]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183009.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[checking if driver exist]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183009.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[checking if driver exist]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183009.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[checking if driver exist]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183009.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //button[@type='button' and @aria-controls='menu-appbar']//div//div]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element userMenuAppBar]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183010.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //button[contains(@class,'btn-link-green')][text()=' Switch to User Portal']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element switching to user account]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183010.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //li//button[contains(@class,'main-nav-1')]//span[1][@title]]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //li//button[contains(@class,'main-nav-1')]//span[1][@title]]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183020.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //button//span[2][@class='flaticon-expand-arrow']/../..//div//span[@title='Service Overview']/span]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //button//span[2][@class='flaticon-expand-arrow']/../..//div//span[@title='Service Overview']/span]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183024.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //a[@class='btn btn-submit']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //a[@class='btn btn-submit']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183024.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //a[@class='btn btn-submit']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element Poc_QA addServiceBtn]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183025.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //h1[@class='main-heading']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //h1[@class='main-heading']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183025.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //p[(@class='hint-text-main-heading')]]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //p[(@class='hint-text-main-heading')]]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183026.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //input[@placeholder='demo-app']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Setting value on element sets service name]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183026.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //input[@placeholder='Sample-Service']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Setting value on element sets external name]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183029.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //span[contains(.,'Build for every environment')]]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element Poc_QA selectEveryRadioBtn]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183030.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //button[@class='btn btn-submit']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element Poc_QA SubmitCreatePage]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183030.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //h1[@class='h1' and contains(.,'Create a Environment')]]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //h1[@class='h1' and contains(.,'Create a Environment')]]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183032.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //div[@class='staticwrap-inner']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //div[@class='staticwrap-inner']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183032.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //select[@name='env_id']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //select[@name='env_id']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183041.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //button[@class='btn btn-submit']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //button[@class='btn btn-submit']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183116.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //button[@class='btn btn-submit']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element Poc_QA SubmitEnvPage]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183116.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //div[@class='font-27 font-family-nunito font-weight-300 lh-12 mr-5']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //div[@class='font-27 font-family-nunito font-weight-300 lh-12 mr-5']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183123.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //span[contains(text(),'Project:')]]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //span[contains(text(),'Project:')]]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183123.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //*[text()='Env Build Details']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //*[text()='Env Build Details']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183124.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //*[text()='Env Build Details']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element Poc_QA validateBuildDetails]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183124.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //p[@class='main-text mb-10']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //p[@class='main-text mb-10']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183125.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //span[@class='sub-text mb-10']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //span[@class='sub-text mb-10']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183125.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //*[text()='Env Deploy Details']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //*[text()='Env Deploy Details']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183125.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //*[text()='Env Deploy Details']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element Poc_QA validateDeployDetails]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183125.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //p[@class='main-text mb-10']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //p[@class='main-text mb-10']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183126.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //span[@class='sub-text mb-10']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //span[@class='sub-text mb-10']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183126.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //*[text()='To have a very smooth configuration we strongly recommend BuildPiper UI.']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //*[text()='To have a very smooth configuration we strongly recommend BuildPiper UI.']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183126.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //*[text()='you can also configure the CD by uploading your custom manifest file.']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //*[text()='you can also configure the CD by uploading your custom manifest file.']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183126.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //*[text()='Env Build Details']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //*[text()='Env Build Details']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183127.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //*[text()='Env Build Details']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element Poc_QA validateBuildDetails]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183127.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //*[text()='Configure Build']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //*[text()='Configure Build']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183127.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //*[text()='Configure Build']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element Poc_QA clickConfigBuild]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183127.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //div[@class='md-step-circle current']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //div[@class='md-step-circle current']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183131.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //h4[@class='mainHeading']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //h4[@class='mainHeading']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183131.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //*[text()='Please Select the Git URL']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //*[text()='Please Select the Git URL']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183131.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //div[@class='MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //div[@class='MuiInputBase-root MuiOutlinedInput-root MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183131.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //input[@name='git_url']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element Poc_QA gitUrlInputField]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183132.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //button[@title='Clear']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element ClicksclearField]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183137.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //input[@name='git_url']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //*[text()='Load Branches']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //*[text()='Load Branches']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183147.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //*[text()='Load Branches']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on element Poc_QA loadBranchesBtn]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183147.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //input[@name='file_paths']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //input[@name='file_paths_build_context']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //*[text()='Advance Configurations']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Element is present  xpath: //*[text()='Advance Configurations']]]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183201.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Element : xpath: //input[@name='custom_parameters']]is displayed on screen]]>
+            </line>
+            <line>
+              <![CDATA[Setting value on element custom Parameters]]>
+            </line>
+            <line>
+              <![CDATA[<img src=D:\BuildPiper_Rahul\Reports\05Mar_182953\CreateandBuildService_withExtraParameter_chrome\CreateandBuildService_withExtraParameter_chrome_65_Mar_183201.jpg alt='Lamp' width='500' height='400'>]]>
+            </line>
+            <line>
+              <![CDATA[Result upload to testlink is disabled, Please ensure you have 'UpdateTestLink=Yes' in project.properties ]]>
+            </line>
+            <line>
+              <![CDATA[####### End of Test Case: CreateandBuildService_withExtraParameter #######]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateandBuildService_withExtraParameter -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:com.buildpiper.testcases.ServiceCreationComprehensiveTestCases@42561fba]" started-at="2024-03-05T18:32:03 IST" name="StopDriver" finished-at="2024-03-05T18:32:03 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.buildpiper.testcases.ServiceCreationComprehensiveTestCases@42561fba]" started-at="2024-03-05T18:32:03 IST" name="getResult" finished-at="2024-03-05T18:32:04 IST" duration-ms="113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateandBuildService_withExtraParameter status=FAILURE method=ServiceCreationComprehensiveTestCases.CreateandBuildService_withExtraParameter()[pri:2, instance:com.buildpiper.testcases.ServiceCreationComprehensiveTestCases@42561fba] output=checking if driver exist]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.buildpiper.testcases.ServiceCreationComprehensiveTestCases@42561fba]" started-at="2024-03-05T18:32:04 IST" name="tearDown" finished-at="2024-03-05T18:32:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.buildpiper.testcases.ServiceCreationComprehensiveTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
